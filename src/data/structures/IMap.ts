@@ -1,0 +1,1 @@
+export type IMap<T> = Record<number | string, T>;

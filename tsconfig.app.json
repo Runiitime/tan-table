@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "es2023",
+    "lib": ["ES2023", "DOM"],
+    "module": "esnext",
+    "types": ["vite/client"],
+    "allowArbitraryExtensions": true,
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": false,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@helpers/*": [
+        "src/helpers/*"
+      ],
+      "@data/*": [
+        "src/data/*"
+      ],
+      "@components/*": [
+        "src/views/components/*"
+      ]
+    },
+
+    "noEmitHelpers": true,
+    "incremental": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "isolatedModules": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "skipDefaultLibCheck": true,
+    "pretty": false,
+    "noErrorTruncation": true,
+    "diagnostics": false,
+  },
+  "include": ["src"]
+}
