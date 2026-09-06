@@ -6,7 +6,7 @@ import { RowItems, TableFilterParams, TableRowSelectionParams } from '../helpers
 import { MobileVirtualizer, useTableInit, useTableVirtualizer } from '../hooks';
 import { TableMobileWrapper } from './tableMobileWrapper';
 import * as Style from '../style';
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 import { Loader } from "@components/loader";
 
 interface Props<TType extends object, TValue> {

@@ -1,39 +1,39 @@
 import { Color } from "@data/md3";
 
 export const color: Color = {
-    primary: "#00687b",
-    onPrimary: "#ffffff",
-    primaryContainer: "#aeecff",
-    onPrimaryContainer: "#001f26",
+    primary: "#86d2e7",
+    onPrimary: "#003641",
+    primaryContainer: "#004e5d",
+    onPrimaryContainer: "#aeecff",
 
-    secondary: "#4b6268",
-    onSecondary: "#ffffff",
-    secondaryContainer: "#cee7ee",
-    onSecondaryContainer: "#061f24",
+    secondary: "#b2cbd2",
+    onSecondary: "#1d3439",
+    secondaryContainer: "#334a50",
+    onSecondaryContainer: "#cee7ee",
 
-    tertiary: "#565d7e",
-    onTertiary: "#ffffff",
-    tertiaryContainer: "#dde1ff",
-    onTertiaryContainer: "#121a37",
+    tertiary: "#bec5eb",
+    onTertiary: "#282f4d",
+    tertiaryContainer: "#3e4565",
+    onTertiaryContainer: "#dde1ff",
 
-    error: "#ba1b1b",
-    onError: "#ffffff",
-    errorContainer: "#ffdad6",
-    onErrorContainer: "#410002",
+    error: "#ffb4ab",
+    onError: "#690005",
+    errorContainer: "#93000a",
+    onErrorContainer: "#ffdad6",
 
-    background: "#fdfbfb",
-    onBackground: "#1c1b1b",
+    background: "#1c1b1b",
+    onBackground: "#e5e2e1",
 
-    surface: "#f5fafc",
-    onSurface: "#171c1e",
-    onSurfaceVariant: "#484646",
+    surface: "#0f1416",
+    onSurface: "#dee3e5",
+    onSurfaceVariant: "#e5e2e1",
 
-    outline: "#787776",
-    outlineVariant: "#c9c6c5",
+    outline: "#929090",
+    outlineVariant: "#484646",
 
     shadow: "#000000",
 
-    surfaceContainerLow: "#ffffff",
-    surfaceContainer: "#e9eff1",
-    surfaceContainerHighest: "#dee3e5"
+    surfaceContainerLow: "#171c1e",
+    surfaceContainer: "#1b2022",
+    surfaceContainerHighest: "#303638"
 }

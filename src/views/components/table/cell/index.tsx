@@ -1,7 +1,7 @@
 import React from 'react';
 import { Cell, flexRender } from '@tanstack/react-table';
 
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 import { ColumnWidthUnit } from '../helpers';
 import * as Styled from '../style';
 

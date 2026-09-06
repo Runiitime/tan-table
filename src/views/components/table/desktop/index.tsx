@@ -6,7 +6,7 @@ import { TableHeader } from '../header';
 import { ColumnWidthUnit, TableFilterParams, TableRowSelectionParams } from '../helpers';
 import { TableBodyContent } from './tableBody';
 import * as Style from '../style';
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 import { Loader } from "@components/loader";
 import { useTableInit, DesktopVirtualizer, useTableVirtualizer } from "@components/table/hooks";
 

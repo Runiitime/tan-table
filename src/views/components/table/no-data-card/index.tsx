@@ -1,7 +1,7 @@
 import React from 'react';
 
 import * as Style from '../style';
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 import { Card } from "@components/card";
 import { Typography } from "@components/typography";
 

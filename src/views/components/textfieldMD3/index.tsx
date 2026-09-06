@@ -5,7 +5,7 @@ import mergeRefs from 'merge-refs';
 import { Key } from 'ts-key-enum';
 
 import { IMap } from "@data/structures";
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 import { Typography } from "@components/typography";
 import { defined } from "@helpers/defined";
 

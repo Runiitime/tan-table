@@ -22,7 +22,7 @@ const TableMobileCardInner = <TType extends object>(props: Props<TType>) => {
 
   return (
     <div ref={measureElement} data-index={virtualRow.index}>
-      <Card className='table__mobile-card' sx={Style.TableMobileCard} type='elevated'>
+      <Card className='table__mobile-card' sx={Style.TableMobileCard}>
         {visibleCells?.map((cell) => (
           <TableMobileCell key={`${cell.id}-cell`} cell={cell} />
         ))}

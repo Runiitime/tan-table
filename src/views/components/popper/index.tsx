@@ -3,7 +3,7 @@ import { Popper as MUIPopper } from '@mui/material';
 import { ClickAwayListener } from '@mui/material';
 import { Instance } from '@popperjs/core';
 
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 import { defined } from "@helpers/defined";
 import * as styled from './style';
 

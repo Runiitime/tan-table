@@ -1,7 +1,10 @@
 import React from 'react';
 import { ColumnDef } from '@tanstack/react-table';
+
 import { Table } from "@components/table"
+import { Box } from "src/views/components/box";
 import { IPerson, makeData, newPerson } from './data';
+import * as Styled from './style';
 
 export const App: React.FC = () => {
   const [data, setData] = React.useState<IPerson[]>([]);
@@ -36,6 +39,10 @@ export const App: React.FC = () => {
     },
   ]), [])
 
-  return <Table<IPerson, string> data={data} columns={columns} onAddItem={handleAddItem} />;
+  return (
+      <Box sx={Styled.AppContainer}>
+        <Table<IPerson, string> data={data} columns={columns} showSearch onAddItem={handleAddItem} />
+      </Box>
+  );
 }
 

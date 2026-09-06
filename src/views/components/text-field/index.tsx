@@ -2,7 +2,7 @@ import React from 'react';
 import { SxProps } from '@mui/system';
 import classnames from 'classnames';
 
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 import { TextField as TextFieldMD3 } from "@components/textfieldMD3"
 import { Typography } from "@components/typography";
 import * as Styled from './style';

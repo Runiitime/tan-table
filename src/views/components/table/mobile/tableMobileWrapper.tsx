@@ -5,7 +5,7 @@ import { RowItems } from '../helpers';
 import { NoDataCard } from '../no-data-card';
 import { TableMobileCard } from './tableMobileCard';
 import * as Style from '../style';
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 
 interface Props<TType extends object> {
   rows: RowItems<TType>[];

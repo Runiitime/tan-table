@@ -3,10 +3,10 @@ import MUIFab from '@mui/material/Fab';
 import { SxProps } from '@mui/system';
 import classnames from 'classnames';
 
-import * as Styled from './style';
 import { IMap } from "@data/structures";
-import { Box } from "@components/box";
 
+import { Box } from "@components/box";
+import * as Styled from './style';
 interface Props {
   color?: 'primary' | 'secondary' | 'surface' | 'tertiary' | 'branded';
   size?: 'small' | 'medium' | 'large';

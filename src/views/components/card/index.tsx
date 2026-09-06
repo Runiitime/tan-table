@@ -1,7 +1,7 @@
 import React from 'react';
 import { type SxProps } from '@mui/system';
 import classnames from 'classnames';
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 import * as Styled from "./style"
 
 interface Props extends React.PropsWithChildren{

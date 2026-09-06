@@ -99,7 +99,7 @@ export const Table = <TType extends object, TValue>(props: Props<TType, TValue>)
                         <TextField value={globalFilter} label={searchLabel} sx={Style.TextField} onChange={setGlobalFilter} />
                     )}
                     {onAddItem && (
-                        <Fab onClick={onAddItem}>
+                        <Fab color={"secondary"} onClick={onAddItem}>
                             <Add />
                         </Fab>
                     )}

@@ -2,7 +2,7 @@ import React from 'react';
 import { SxProps } from '@mui/system';
 import merge from 'lodash/merge';
 
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 import { Typography } from "@components/typography";
 import { IMap } from "@data/structures";
 

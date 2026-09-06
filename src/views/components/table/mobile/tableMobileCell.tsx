@@ -1,7 +1,7 @@
 import { Cell, flexRender } from "@tanstack/react-table";
 
 import * as Style from '../style';
-import { Box } from "@components/box";
+import { Box } from "src/views/components/box";
 import { Typography } from "@components/typography";
 
 interface Props<TType extends object> {

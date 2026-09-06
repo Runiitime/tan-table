@@ -34,6 +34,7 @@ export const TanTable = (isFullWidth: boolean): SxProps => ({
             top: 0,
             zIndex: 1,
             background: InterfaceMD3.color.surfaceContainer,
+            color: InterfaceMD3.color.onSurface,
 
             tr: {
                 display: 'flex',
@@ -59,6 +60,7 @@ export const TanTable = (isFullWidth: boolean): SxProps => ({
 
         tr: {
             boxSizing: 'border-box',
+            color: InterfaceMD3.color.onSurface,
         },
 
         th: {
@@ -151,6 +153,7 @@ export const TableMobileContainer = (showSearch: boolean): SxProps => ({
     overflowY: 'auto',
     overflowX: 'hidden',
     contain: 'strict',
+    color: InterfaceMD3.color.onSurface,
 });
 
 export const TableMobileWrapper = (height: number): SxProps => ({

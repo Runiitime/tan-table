@@ -1,7 +1,7 @@
 import React, { PropsWithChildren } from 'react';
 import { SxProps } from '@mui/system';
 
-import { Box } from "@components/box"
+import { Box } from "src/views/components/box"
 import { Tooltip } from "@components/tooltip"
 import { IMap } from "@data/structures";
 import { elementOverflowed } from "@helpers/dom";

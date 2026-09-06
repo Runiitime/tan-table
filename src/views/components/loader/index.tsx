@@ -3,10 +3,8 @@ import { CircularProgress, Fade } from '@mui/material';
 import { SxProps } from '@mui/system';
 import merge from 'lodash/merge';
 
-
-
+import { Box } from "src/views/components/box";
 import * as Styled from './style';
-import {Box} from "@components/box";
 
 interface Props {
   visible: boolean;
